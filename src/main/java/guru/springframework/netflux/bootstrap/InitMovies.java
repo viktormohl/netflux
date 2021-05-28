@@ -9,7 +9,7 @@ import reactor.core.publisher.Flux;
 
 @Component
 @RequiredArgsConstructor
-public class InitMoview implements CommandLineRunner {
+public class InitMovies implements CommandLineRunner {
 
     private final MovieRepository movieRepository;
 
